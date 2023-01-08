@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #202124;
+}
+input {
+  padding: 0;
+  font-size: 20px;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #1e50bf;
+  background: #222;
+  color: #19b9b1;
+  text-align: center;
+  padding-bottom: 3px;
+  padding-top: 10px;
+}
+button {
+    text-decoration: none;
+    color: #19b9b1;
+    font-size: 20px;
+    background: #1e50bf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #0048a1;
+    outline: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+button svg {
+    margin-right: 5px;
+}
+button svg path {
+  fill: #19b9b1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  width: 100%;
+  height: 45px;
+  background: #292a2d;
+  color: #494c50;
+  padding: 10px;
+  text-align: center;
+}
+.content {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

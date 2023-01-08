@@ -1,0 +1,1 @@
+{"name":"module-extractor","version":"1.0.1","description":"For Glitch.me","main":"index.js","scripts":{"start":"node index.js"},"keywords":["module-extractor","module-extract","dependency-extractor"],"author":"DaytonPlus","license":"ISC","dependencies":{}}
